@@ -34,6 +34,7 @@ def searchMusicRecords():
         for i in range(0,len(myList)):
             for k,v in myList[i].items():
                 if v == myBandArtistInput:
+                    count += 1
                     print("Band Name: ", myList[i].get("bandartist"))
                     print("Album Title Name: ", myList[i].get("albumtitle"))
                     print("Year Published: ", myList[i].get("yearpublished"))
@@ -47,6 +48,7 @@ def searchMusicRecords():
         for i in range(0,len(myList)):
             for k,v in myList[i].items():
                 if v == myAlbumTitleInput:
+                    count += 1
                     print("Band Name: ", myList[i].get("bandartist"))
                     print("Album Title Name: ", myList[i].get("albumtitle"))
                     print("Year Published: ", myList[i].get("yearpublished"))
@@ -60,6 +62,7 @@ def searchMusicRecords():
         for i in range(0,len(myList)):
             for k,v in myList[i].items():
                 if v == myYearPublishedInput:
+                    count += 1
                     print("Band Name: ", myList[i].get("bandartist"))
                     print("Album Title Name: ", myList[i].get("albumtitle"))
                     print("Year Published: ", myList[i].get("yearpublished"))
@@ -73,6 +76,7 @@ def searchMusicRecords():
         for i in range(0,len(myList)):
             for k,v in myList[i].items():
                 if v == myRecordLabelInput:
+                    count += 1
                     print("Band Name: ",myList[i].get("bandartist"))
                     print("Album Title Name: ",myList[i].get("albumtitle"))
                     print("Year Published: ",myList[i].get("yearpublished"))
