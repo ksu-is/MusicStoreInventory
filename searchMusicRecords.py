@@ -26,7 +26,6 @@ def searchMusicRecords():
                     print("Year Published: ", myList[i].get("yearpublished"))
                     print("Duration: ", myList[i].get("duration"))
                     print("Record Label:", myList[i].get("recordlabel"))
-                    print("Cost Per Unit: ", myList[i].get("costperunit"))
         if count == 0:
             print("Music Record Not Found!")
             
@@ -35,11 +34,11 @@ def searchMusicRecords():
         for i in range(0,len(myList)):
             for k,v in myList[i].items():
                 if v == myBandArtistInput:
+                    print("Band Name: ", myList[i].get("bandartist"))
                     print("Album Title Name: ", myList[i].get("albumtitle"))
                     print("Year Published: ", myList[i].get("yearpublished"))
                     print("Duration: ", myList[i].get("duration"))
                     print("Record Label:", myList[i].get("recordlabel"))
-                    print("Cost Per Unit: ", myList[i].get("costperunit"))
         if count == 0:
             print("Music Record Not Found!")
         
@@ -49,10 +48,10 @@ def searchMusicRecords():
             for k,v in myList[i].items():
                 if v == myAlbumTitleInput:
                     print("Band Name: ", myList[i].get("bandartist"))
+                    print("Album Title Name: ", myList[i].get("albumtitle"))
                     print("Year Published: ", myList[i].get("yearpublished"))
                     print("Duration: ",myList[i].get("duration"))
                     print("Record Label:",myList[i].get("recordlabel"))
-                    print("Cost Per Unit: ",myList[i].get("costperunit"))
         if count == 0:
             print("Music Record Not Found!")
             
@@ -63,9 +62,9 @@ def searchMusicRecords():
                 if v == myYearPublishedInput:
                     print("Band Name: ", myList[i].get("bandartist"))
                     print("Album Title Name: ", myList[i].get("albumtitle"))
+                    print("Year Published: ", myList[i].get("yearpublished"))
                     print("Duration: ", myList[i].get("duration"))
                     print("Record Label:", myList[i].get("recordlabel"))
-                    print("Cost Per Unit: ",myList[i].get("costperunit"))
         if count == 0:
             print("Music Record Not Found!")
             
@@ -78,6 +77,6 @@ def searchMusicRecords():
                     print("Album Title Name: ",myList[i].get("albumtitle"))
                     print("Year Published: ",myList[i].get("yearpublished"))
                     print("Duration: ",myList[i].get("duration"))
-                    print("Cost Per Unit: ",myList[i].get("costperunit"))
+                    print("Record Label:", myList[i].get("recordlabel"))
         if count == 0:
             print("Music Record Not Found!")
