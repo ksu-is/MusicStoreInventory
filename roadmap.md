@@ -6,4 +6,6 @@
 - [x] Test repository
 
 # Sprint 2
-- [] tbd
+- [] Create the Inventory of Bands
+- [] Create the Customer/Player
+- [] Create a Greeting for the Player
