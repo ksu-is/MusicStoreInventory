@@ -11,8 +11,13 @@
 - [x] Create a Greeting for the Player
 
 # Sprint 3
-- [] Create code for enterStreet()
-- [] Create code for enterBank()
-- [] Create code for enterStore()
-- [] Create code selecting albums
-- [] Create code for withdrawing money from bank
+- [x] Create code for enterStreet()
+- [x] Create code for enterBank()
+- [x] Create code for enterStore()
+- [x] Create code selecting albums
+- [x] Create code for withdrawing money from bank
+
+# Finish Code
+- [] Create code for testPurchase()
+- [] Create code for player inventory
+- [] Create code for store inventory
