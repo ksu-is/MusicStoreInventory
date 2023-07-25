@@ -18,6 +18,6 @@
 - [x] Create code for withdrawing money from bank
 
 # Finish Code
-- [] Create code for testPurchase()
-- [] Create code for player inventory
-- [] Create code for store inventory
+- [x] Create code for testPurchase()
+- [x] Create code for player inventory
+- [x] Create code for store inventory
